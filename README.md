@@ -13,100 +13,100 @@ The notebook includes the following major steps:
 
 ### 1. Data Loading & Exploration
 
--Importing the dataset
+- Importing the dataset
 
--Handling duplicates
+- Handling duplicates
 
--Label encoding (spam = 1, ham = 0)
+- Label encoding (spam = 1, ham = 0)
 
 ### 2. Exploratory Data Analysis (EDA)
 
--Distribution of classes
+- Distribution of classes
 
--Count plots, pie charts
+- Count plots, pie charts
 
--Checking for class imbalance
+- Checking for class imbalance
 
 ### 3. Text Preprocessing (NLTK)
 
--Tokenization
+- Tokenization
 
--Lowercasing
+- Lowercasing
 
--Removing punctuation & stopwords
+- Removing punctuation & stopwords
 
--Extracting statistics (sentence/word/character counts)
+- Extracting statistics (sentence/word/character counts)
 
 ### 4. Feature Engineering
 
--Vectorization using CountVectorizer
+- Vectorization using CountVectorizer
 
--Train/test split
+- Train/test split
 
 ### 5. Baseline Model Benchmarking
 
--Using LazyPredict to quickly test multiple classical ML models
+- Using LazyPredict to quickly test multiple classical ML models
 
 ### 6. Hyperparameter Optimization
 
--Tuning Bernoulli Naive Bayes via GridSearchCV
+- Tuning Bernoulli Naive Bayes via GridSearchCV
 
 ### 7. Handling Class Imbalance
 
--Applying RandomUnderSampler (from imbalanced-learn)
+- Applying RandomUnderSampler (from imbalanced-learn)
 
 ### 8. Model Evaluation
 
--Metrics used:
+- Metrics used:
 
--Confusion Matrix
+- Confusion Matrix
 
--Accuracy, Precision, Recall, F1-Score
+- Accuracy, Precision, Recall, F1-Score
 
--ROC Curve & AUC
+- ROC Curve & AUC
 
--Classification Report
+- Classification Report
 
 ### 9. Ensemble Modeling
 
--A VotingClassifier combining:
+- A VotingClassifier combining:
 
--Decision Tree
+- Decision Tree
 
--BernoulliNB
+- BernoulliNB
 
--Random Forest
+- Random Forest
 
 ## 🏆 Best Model Performance
 
 After applying RandomUnderSampler, Bernoulli Naive Bayes achieved:
 
 Metric	Score
--Accuracy	~98.65%
--Precision	~97.20%
--Recall	~93.29%
--F1-Score	~95.21%
+- Accuracy	~98.65%
+- Precision	~97.20%
+- Recall	~93.29%
+- F1-Score	~95.21%
 ## 🛠️ Requirements
 
--Make sure the following packages are installed:
+- Make sure the following packages are installed:
 
 >pip install pandas numpy matplotlib seaborn scikit-learn nltk lazypredict xgboost imbalanced-learn
 
 ## ▶️ How to Run
 
--Clone the repository
+- Clone the repository
 
--git clone <your-repo-link>
-
-
--Install the dependencies
-
--Launch Jupyter Notebook
-
--jupyter notebook
+- git clone <your-repo-link>
 
 
--Open the notebook and run all cells to reproduce the results.
+- Install the dependencies
+
+- Launch Jupyter Notebook
+
+- jupyter notebook
+
+
+- Open the notebook and run all cells to reproduce the results.
 
 ## 📜 License
 
