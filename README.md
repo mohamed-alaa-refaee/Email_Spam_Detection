@@ -96,7 +96,7 @@ Metric	Score
 
 - Clone the repository
 
-- git clone <your-repo-link>
+- git clone <[your-repo-link](https://github.com/mohamed-alaa-refaee/Email_Spam_Detection)>
 
 
 - Install the dependencies
